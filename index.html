@@ -10,8 +10,10 @@
     <!-- google awesome  -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/6d9018c0ff.js" crossorigin="anonymous"></script>
     <!-- css  -->
-   
+
 </head>
 <body>
     <!-- header  -->
@@ -88,12 +90,12 @@
         <!-- great tea section  -->
         <section class="container mx-auto w-full md:w-10/12 ">
             <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="grid grid-cols-2 ">
-                    <div class="w-60 h-36 bg-gradient-to-r from-[#FF0000] to-[#FF8938] rounded-xl">
+                <div class="flex flex-col items-center md:grid  md:grid-cols-2 md:grid-rows-3 mb-32 ">
+                    <div class="w-60 h-36 bg-gradient-to-r from-[#FF0000] to-[#FF8938] rounded-xl ">
                     </div>
-                    <img class="bg-[#E6A623] p-8 rounded-xl" src="images/fresh-1.png" alt="">
-                    <img class="bg-[#577639] py-8 px-12  rounded-xl relative bottom-36" src="images/fresh-2.png" alt="">
-                    <div class="w-60 h-36 bg-gradient-to-r from-[#D9D9D9] to-white rounded-xl relative top-14">
+                    <img class="bg-[#E6A623] p-8 rounded-xl row-span-2" src="images/fresh-1.png" alt="">
+                    <img class="bg-[#577639] py-8 px-12  rounded-xl row-span-2" src="images/fresh-2.png" alt="">
+                    <div class="w-60 h-36 bg-gradient-to-r from-[#D9D9D9] to-white rounded-xl  ">
                     </div>
                 </div>
                 <div class="flex flex-col gap-5">
@@ -132,22 +134,25 @@
                     <!-- 1 -->
                     <div class="bg-white rounded-lg w-96 h-52 px-9 opacity-50 pb-5">
                         <img class="relative right-14 bottom-6" src="images/client.png" alt="">
-                        <p class="text-zinc-500 mb-4">We are providing the best and suitable home insurance services for the
+                        <p class="text-zinc-500 mb-4">We are providing the best and suitable home insurance services for
+                            the
                             people who are interested to treatment</p>
                     </div>
                     <!-- 2 -->
                     <div class="bg-white rounded-lg w-96 h-52 px-9 special absolute right-20 bottom-32 z-10 pb-5">
                         <img class="relative right-14 bottom-6" src="images/client.png" alt="">
 
-                        <p class="text-zinc-500 mb-4">We are providing the best and suitable home insurance services for the
+                        <p class="text-zinc-500 mb-4">We are providing the best and suitable home insurance services for
+                            the
                             people who are interested to treatment</p>
                         <h4 class="font-bold text-base">Ilham Yuda</h4>
                         <p class="text-zinc-500">Businessman</p>
                     </div>
                     <!-- 3 -->
                     <div class="bg-white rounded-lg w-96 h-52 px-9 opacity-25 pb-5">
-                        <img  class="relative right-14 bottom-6" src="images/client.png" alt="">
-                        <p class="text-zinc-500 mb-">We are providing the best and suitable home insurance services for the
+                        <img class="relative right-14 bottom-6" src="images/client.png" alt="">
+                        <p class="text-zinc-500 mb-">We are providing the best and suitable home insurance services for
+                            the
                             people who are interested to treatment</p>
                         <h4 class="font-bold text-base">Ilham Yuda</h4>
                         <p class="text-zinc-500">Designer</p>
@@ -159,7 +164,9 @@
         <section class="container mx-auto w-full md:w-10/12 mb-32">
             <div class="text-center space-y-5 mb-12">
                 <h2 class="text-4xl font-extrabold">News & Events</h2>
-                <p class="text-zinc-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <p class="text-zinc-500">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form, by injected humour, or randomised words which don't
+                    look even slightly believable. </p>
             </div>
             <div class="flex flex-col md:flex-row gap-6">
                 <div class="space-y-2 border-2 border-[#D2D2D2] flex flex-col p-4">
@@ -183,13 +190,64 @@
                     <p class="text-zinc-500">There are many variations of passages of Lorem Ipsum available.</p>
                     <h6 class="text-base font-bold">Learn More</h6>
                 </div>
-                
+
             </div>
         </section>
     </main>
     <!-- footer -->
-    <footer>
-
+    <footer class="bg-orange-100">
+        <!-- footer  -->
+        <section class="container mx-auto w-full md:w-10/12 mb-32 py-32 px-20">
+            <div>
+                <div class="flex justify-between mb-24">
+                    <div>
+                        <img src="images/cup.png" alt="">
+                    </div>
+                    <div class="flex gap-10 ">
+                        <h5 class="text-xl my-auto">Ready to get started?</h5>
+                        <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-5 py-4 text-white rounded-lg">Get
+                            Started
+                        </button>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 justify-between mb-16 space-y-4">
+                    <div class="space-y-3">
+                        <h3 class="text-xl font-semibold">Quick Links</h3>
+                        <p class="text-zinc-500">Home</p>
+                        <p class="text-zinc-500">About Us</p>
+                        <p class="text-zinc-500">Insurance</p>
+                        <p class="text-zinc-500">Privacy Policy</p>
+                    </div>
+                    <div class="space-y-3">
+                        <h3 class="text-xl font-semibold">Our Service</h3>
+                        <p class="text-zinc-500">Life Insurance</p>
+                        <p class="text-zinc-500">Car Insurance</p>
+                        <p class="text-zinc-500">Health Insurance</p>
+                        <p class="text-zinc-500">House Insurance</p>
+                    </div>
+                    <div class="space-y-3">
+                        <h3 class="text-xl font-semibold">Help</h3>
+                        <p class="text-zinc-500">FAQs</p>
+                        <p class="text-zinc-500">Contact Us</p>
+                    </div>
+                    <div class="space-y-10">
+                        <h3 class="text-2xl font-semibold">Subscribe to our <br> newsletter</h3>
+                        <div class="space-y-4">
+                            <input class="bg-orange-100 text-sm font-normal text-[#494949] border-b-2 border-gray-500 py-5 pr-5" type="email" name="" id="" placeholder="Email Adress">
+                            <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] p-3 rounded-full text-white">></button>
+                        </div>
+                        <div class="flex gap-6 text-xl text-[]">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-center text-zinc-500 text-base font-medium">© 2027 UIDesign.to - All rights reserved.</p>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
